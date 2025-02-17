@@ -34,11 +34,12 @@ button{
     border-radius: 5%;
     border: 5px;
     cursor: pointer;
-    background:rgb(47, 77, 137);
+    background:rgb(50, 190, 205);
     color: white;
     transition: all ease 1s ;
-}
-button:hover{
-    background:  rgb(109, 237, 100) ;
-    transform: scale(1.1);
+    &:hover{
+        background:  rgb(109, 237, 100) ;
+        transform: scale(1.1);
+    }
+
 }
